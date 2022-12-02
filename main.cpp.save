@@ -1,0 +1,47 @@
+#include <iostream>
+#include <cstring>
+
+//class is a collection of related data and function under a single name
+
+class Tictacgame{
+    
+    //use public access specifier if you want to use your functions defined in your class in your main else 
+    public:
+
+
+};
+
+namespace grace {
+
+int fibonacci(int n)
+
+{
+
+   if (n <= 1)
+        return n;
+   return fibonacci(n-1) + fibonacci(n-2);
+}
+
+std::list<int> fibseries(int n)
+{
+	// Create an empty list of ints
+	std::list<int> fiblist;
+
+	int fibnum = fibonacci(0);
+
+	for( int i = fibnum; i <= n; i++) {
+		fiblist.push_back(fibonacci(i));
+	}
+
+	return fiblist;
+}
+
+}
+
+
+int main()
+
+{
+    cout << "Hello world!" << endl;
+    return 0;
+}

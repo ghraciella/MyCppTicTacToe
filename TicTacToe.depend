@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1566908897 source:/home/eze/Documents/TutorialsforCPP/TicTacToe/game_board.cpp
+	<stdexcept>
+	"game_board.h"
+
+1566976470 /home/eze/Documents/TutorialsforCPP/TicTacToe/game_board.h
+	<iostream>
+	<array>
+
+1566908995 source:/home/eze/Documents/TutorialsforCPP/TicTacToe/main.cpp
+	<cstring>
+	"game_board.h"
+
+1566819774 source:/home/eze/Documents/TutorialsforCPP/TicTacToe/game.cpp
+	"game.h"
+	"game_board.h"
+
+1566897096 /home/eze/Documents/TutorialsforCPP/TicTacToe/game.h
+
